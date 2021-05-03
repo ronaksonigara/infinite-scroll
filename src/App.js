@@ -7,7 +7,7 @@ import { GlobalStyle } from './styles/global';
 const App = () => {
 	return (
 		<>
-			<Router>
+			<Router basename='/infinite-scroll'>
 				<Switch>
 					<Route path='/' exact component={Login} />
 					<PrivateRoute path='/home' exact component={UserList} />
